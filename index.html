@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#14532d" />
+    <meta
+      name="description"
+      content="Ọja is a multi-vendor marketplace for Nigerian sellers: phones from Computer Village, fashion from Aba, beauty from Lekki, delivered nationwide."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2314532d'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='17' fill='%23facc15' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E"
+    />
+    <!-- Start the catalog and image CDN connections in parallel with the JS bundle. -->
+    <link rel="preload" href="/data/catalog.json" as="fetch" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://cdn.dummyjson.com" />
+    <title>Ọja: shop Nigerian sellers</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Ọja needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
