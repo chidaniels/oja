@@ -2,7 +2,7 @@
 
 A multi-vendor marketplace for Nigerian sellers. Shoppers fill one cart from several shops (phones from Computer Village, fashion from Aba, beauty from Lekki) and check out once. Each seller ships separately, with its own delivery fee and arrival estimate. Anyone can open a shop and list an item.
 
-**Live:** _add your Vercel URL here_ · **Role:** sole frontend engineer (design, frontend, mock API)
+**Role:** sole frontend engineer (design, frontend, mock API)
 
 ## Stack
 
